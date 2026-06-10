@@ -2,12 +2,13 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Générées automatiquement à partir d'un seul fichier BibTeX. Marquez une entrée avec selected={true} pour la mettre en vedette sur la page d'accueil.
+description: Générées automatiquement à partir d'un seul fichier BibTeX. Basculez entre une liste chronologique et une vue organisée par catégorie.
 nav: true
 nav_order: 1
 ---
 
-<!-- La même base BibTeX (_bibliography/papers.bib) alimente les deux langues. -->
+<!-- La même base BibTeX (_bibliography/papers.bib) alimente les deux langues.
+     Deux vues : « Par année » (chronologique) et « Par catégorie » (style CV). -->
 
 #### Index de publication
 
@@ -23,8 +24,48 @@ nav_order: 1
 <!-- Recherche dans la bibliographie -->
 {% include bib_search.liquid %}
 
-<div class="publications">
+<div class="pub-view-toggle btn-group" role="group" aria-label="Vue des publications">
+  <button type="button" id="pub-btn-year" class="btn btn-sm btn-primary" onclick="showPubView('year')">Par année</button>
+  <button type="button" id="pub-btn-category" class="btn btn-sm btn-outline-primary" onclick="showPubView('category')">Par catégorie</button>
+</div>
 
+<div id="pub-view-year" class="publications">
 {% bibliography %}
+</div>
+
+<div id="pub-view-category" style="display: none">
+
+<h3 class="pub-category-header">Livres et actes édités</h3>
+<div class="publications">{% bibliography --query @*[category=books]* %}</div>
+
+<h3 class="pub-category-header">Chapitres de livres avec comité de lecture</h3>
+<div class="publications">{% bibliography --query @*[category=chapters]* %}</div>
+
+<h3 class="pub-category-header">Articles de revues avec comité de lecture</h3>
+<div class="publications">{% bibliography --query @*[category=journals]* %}</div>
+
+<h3 class="pub-category-header">Articles dans des actes de conférences avec comité de lecture</h3>
+<div class="publications">{% bibliography --query @*[category=conferences]* %}</div>
+
+<h3 class="pub-category-header">Contributions invitées et rapports techniques</h3>
+<div class="publications">{% bibliography --query @*[category=reports]* %}</div>
+
+<h3 class="pub-category-header">Résumés et communications</h3>
+<div class="publications">{% bibliography --query @*[category=abstracts]* %}</div>
+
+<h3 class="pub-category-header">Brevets</h3>
+<div class="publications">{% bibliography --query @*[category=patents]* %}</div>
+
+<h3 class="pub-category-header">Normes</h3>
+<div class="publications">{% bibliography --query @*[category=standards]* %}</div>
 
 </div>
+
+<script>
+  function showPubView(view) {
+    document.getElementById('pub-view-year').style.display = (view === 'year') ? 'block' : 'none';
+    document.getElementById('pub-view-category').style.display = (view === 'category') ? 'block' : 'none';
+    document.getElementById('pub-btn-year').className = 'btn btn-sm ' + (view === 'year' ? 'btn-primary' : 'btn-outline-primary');
+    document.getElementById('pub-btn-category').className = 'btn btn-sm ' + (view === 'category' ? 'btn-primary' : 'btn-outline-primary');
+  }
+</script>
