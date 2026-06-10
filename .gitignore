@@ -1,0 +1,22 @@
+_site
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+.tweet-cache
+Gemfile.lock
+assets/libs/
+node_modules/
+vendor
+.idea
+.venv
+
+# Local setup helpers / artifacts (not part of the site)
+.dblp_amyot.bib
+.import_dblp.ps1
+.docker-build.log
+.jekyll-build.log
+.jekyll-serve.log
+_bibliography/papers.seeded.bib
