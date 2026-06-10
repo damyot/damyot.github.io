@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Générées automatiquement à partir d&#39;un seul fichier BibTeX. Marquez une entrée avec selected={true} pour la mettre en vedette sur la page d&#39;accueil.",
+          description: "Générées automatiquement à partir d&#39;un seul fichier BibTeX. Basculez entre une liste chronologique et une vue organisée par catégorie.",
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/fr/publications/";
@@ -54,6 +54,13 @@ ninja.data = [{
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/fr/teaching/";
+          },
+        },{id: "nav-présentations",
+          title: "présentations",
+          description: "Conférences invitées, exposés magistraux, tutoriels, séminaires et démonstrations.",
+          section: "menu de navigation",
+          handler: () => {
+            window.location.href = "/fr/talks/";
           },
         },{id: "news-j-enseigne-seg-3501-ingénierie-des-exigences-ce-trimestre",
           title: 'J’enseigne SEG 3501 — Ingénierie des exigences ce trimestre.',

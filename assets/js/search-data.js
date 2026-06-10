@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "Generated automatically from a single BibTeX file. Mark entries with selected={true} to feature them on the home page.",
+          description: "Generated automatically from a single BibTeX file. Switch between a chronological list and a view organized by category.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/publications/";
@@ -54,6 +54,13 @@ ninja.data = [{
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "Invited talks, keynotes, tutorials, seminars, demos, and editorials.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/talks/";
           },
         },{id: "news-teaching-seg-3501-requirements-engineering-this-term",
           title: 'Teaching SEG 3501 — Requirements Engineering this term.',
