@@ -16,6 +16,7 @@ vendor
 # Local setup helpers / artifacts (not part of the site)
 .dblp_amyot.bib
 .import_dblp.ps1
+.merge_orcid.ps1
 .docker-build.log
 .jekyll-build.log
 .jekyll-serve.log
