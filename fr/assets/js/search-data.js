@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-étudiants",
           title: "étudiants",
-          description: "Étudiants et projets de recherche",
+          description: "Étudiants aux cycles supérieurs (actuels et anciens) et projets de recherche",
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/fr/students/";

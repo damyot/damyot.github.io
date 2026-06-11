@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-students",
           title: "students",
-          description: "Students and research projects",
+          description: "Current and former graduate students, and research projects",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/students/";
