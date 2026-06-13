@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 description: Invited talks, keynotes, tutorials, seminars, demos, and editorials.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 <!-- Rendered from _bibliography/talks.bib (the "Others" section of the CV),
