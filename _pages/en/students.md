@@ -17,6 +17,6 @@ smart contracts ([Symboleo](http://www.symboleo.org/)).
 **Prospective students:** I welcome motivated students with a strong background in
 software engineering or computer science. Please email me with your CV, a short
 statement of research interests, and your transcripts. See also my
-[publications](/publications/) and [potential projects](/projects/).
+[publications](/publications/) and [funded projects](/projects/).
 
 {% include students_list_en.html %}

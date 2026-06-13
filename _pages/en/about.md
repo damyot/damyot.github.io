@@ -68,6 +68,6 @@ Please email me for urgent meetings or questions.
 
 [Publications](/publications/) ·
 [Students and Research Projects](/students/) ·
-[Potential Capstone/Co-op/Master's Projects](/projects/) ·
+[Funded Projects](/projects/) ·
 [Tools](/tools/) ·
 [Teaching](/teaching/)

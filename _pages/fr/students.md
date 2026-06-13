@@ -19,6 +19,6 @@ santé, ainsi que la conformité légale et les contrats intelligents
 **Étudiants intéressés :** j'accueille des étudiants motivés ayant une solide
 formation en génie logiciel ou en informatique. Écrivez-moi avec votre CV, un
 court énoncé de vos intérêts de recherche et vos relevés de notes. Consultez aussi
-mes [publications](/publications/) et mes [projets potentiels](/projects/).
+mes [publications](/publications/) et mes [projets financés](/projects/).
 
 {% include students_list_fr.html %}

@@ -70,6 +70,6 @@ rendez-vous. Envoyez-moi un courriel pour des questions ou rencontres urgentes.
 
 [Publications](/fr/publications/) ·
 [Étudiants et projets de recherche](/fr/students/) ·
-[Projets potentiels de 4e année, coop et maîtrise](/fr/projects/) ·
+[Projets financés](/fr/projects/) ·
 [Outils](/fr/tools/) ·
 [Enseignement](/fr/teaching/)
