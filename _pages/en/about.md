@@ -21,7 +21,7 @@ social: true                   # renders the icons configured in _data/socials.y
 announcements:
   enabled: true                # shows the latest _news entries (conferences, highlights)
   scrollable: true             # vertical scroll bar if there are more than ~3 items
-  limit: 5                     # leave blank to include all news
+  limit: 12                    # leave blank to include all news
 ---
 
 I joined the School of Electrical Engineering and Computer Science (EECS) at the

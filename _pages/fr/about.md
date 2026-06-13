@@ -21,7 +21,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 12
 ---
 
 En février 2002, je me suis joint à l'École de science informatique et de génie
