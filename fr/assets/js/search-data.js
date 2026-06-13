@@ -36,7 +36,7 @@ ninja.data = [{
           },
         },{id: "nav-projets",
           title: "projets",
-          description: "Projets potentiels de 4e année, coop et maîtrise",
+          description: "Projets de recherche financés (en cours et antérieurs)",
           section: "menu de navigation",
           handler: () => {
             window.location.href = "/fr/projects/";
