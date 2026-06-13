@@ -150,6 +150,14 @@
       {% endif %}
     </div>
 
+    <!-- Full co-author list (visually hidden) so bibsearch matches every
+         co-author, including those collapsed under "more authors". -->
+    <span class="sr-only">
+      {%- for author in entry.author_array -%}
+        {{ author.first }} {{ author.last }}{% unless forloop.last %}, {% endunless %}
+      {%- endfor -%}
+    </span>
+
     <!-- Journal/Book title and date -->
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
