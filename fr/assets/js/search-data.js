@@ -55,6 +55,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/fr/teaching/";
           },
+        },{id: "nav-service",
+          title: "service",
+          description: "Comités éditoriaux, comités directeurs et rôles dans des conférences",
+          section: "menu de navigation",
+          handler: () => {
+            window.location.href = "/fr/service/";
+          },
         },{id: "nav-présentations",
           title: "présentations",
           description: "Conférences invitées, exposés magistraux, tutoriels, séminaires et démonstrations.",
