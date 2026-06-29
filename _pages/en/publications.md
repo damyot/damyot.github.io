@@ -59,6 +59,9 @@ nav_order: 1
 <h3 class="pub-category-header">Standards</h3>
 <div class="publications">{% bibliography --query @*[category=standards]* %}</div>
 
+<h3 class="pub-category-header">Tutorials, Refereed Demos/Posters, and Invited Lectures</h3>
+<div class="publications">{% bibliography --file talks %}</div>
+
 </div>
 
 <script>
