@@ -1,0 +1,111 @@
+<style>
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin:1rem 0 2rem;}
+.tools-grid .tool-card{display:flex;flex-direction:column;height:100%;overflow:hidden;}
+.tools-grid .tool-card .card-body{display:flex;flex-direction:column;flex:1 1 auto;}
+.tools-grid .tool-card .card-text{flex:1 1 auto;}
+.tool-shot{width:100%;height:160px;object-fit:cover;object-position:top left;border-bottom:1px solid var(--global-divider-color,#e0e0e0);}
+.tool-tagline{font-weight:600;margin:.1rem 0 .5rem;}
+.tool-tech{font-size:.78rem;color:var(--global-text-color-light,#828282);margin:.2rem 0 .7rem;}
+.tool-links a{margin-right:.4rem;}
+</style>
+<h3 class="tool-section">Symboleo — Spécification et génération de contrats juridiques intelligents</h3>
+<div class="tools-grid">
+<div class="card tool-card">
+<a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-Web" target="_blank" rel="noopener"><img src="/assets/img/tools/symboleo-web.jpg" class="tool-shot" alt="SymboleoAC Web IDE screenshot" loading="lazy"></a>
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-Web" target="_blank" rel="noopener">SymboleoAC Web IDE</a></h5>
+<div class="tool-tagline">EDI Web pour écrire, valider et compiler des contrats SymboleoAC.</div>
+<p class="card-text">Un EDI Web sans installation pour le langage SymboleoAC : validation en direct, complétion, génération de code de contrat intelligent en JavaScript en un clic, et diagrammes interactifs de domaine et de contrôle d'accès.</p>
+<div class="tool-tech">React · TypeScript · Xtext</div>
+<div class="tool-links"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-Web" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+<div class="card tool-card">
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-IDE" target="_blank" rel="noopener">SymboleoAC Eclipse IDE</a></h5>
+<div class="tool-tagline">EDI Eclipse/Xtext pour des contrats Symboleo avec contrôle d'accès.</div>
+<p class="card-text">Un EDI Eclipse basé sur Xtext pour spécifier des contrats juridiques en SymboleoAC, qui étend Symboleo avec le contrôle d'accès et des concepts événementiels pour les contrats intelligents cyber-physiques. Inclut un validateur en ligne de commande.</p>
+<div class="tool-tech">Java · Xtext · Eclipse</div>
+<div class="tool-links"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-IDE" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+<div class="card tool-card">
+<a href="https://github.com/Smart-Contract-Modelling-uOttawa/Symboleo2SC-SymboleoPC-Combined" target="_blank" rel="noopener"><img src="/assets/img/tools/symboleo-combined.jpg" class="tool-shot" alt="Symboleo2SC + SymboleoPC screenshot" loading="lazy"></a>
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/Symboleo2SC-SymboleoPC-Combined" target="_blank" rel="noopener">Symboleo2SC + SymboleoPC</a></h5>
+<div class="tool-tagline">Une spécification, du code de contrat intelligent et des spécifications de vérification.</div>
+<p class="card-text">Un outil Eclipse/Xtext combiné qui, à partir d'une seule spécification Symboleo, génère à la fois du code de contrat intelligent en JavaScript (Symboleo2SC) et des fichiers de vérification de modèles SMV (SymboleoPC).</p>
+<div class="tool-tech">Xtend · Xtext · Eclipse</div>
+<div class="tool-links"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/Symboleo2SC-SymboleoPC-Combined" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+<div class="card tool-card">
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC2SC" target="_blank" rel="noopener">SymboleoAC2SC Examples</a></h5>
+<div class="tool-tagline">Exemples de contrats intelligents générés à partir de spécifications SymboleoAC.</div>
+<p class="card-text">Un dépôt de démonstration des contrats intelligents en JavaScript générés à partir de spécifications SymboleoAC, avec des suites de tests exécutables (p. ex. MeatSale, VaccineProcurement).</p>
+<div class="tool-tech">JavaScript · Node.js</div>
+<div class="tool-links"><a href="https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC2SC" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+</div>
+<h3 class="tool-section">jUCMNav — Notation visuelle d'exigences (URN)</h3>
+<div class="tools-grid">
+<div class="card tool-card">
+<a href="https://github.com/JUCMNAV/jUCMNavPlus" target="_blank" rel="noopener"><img src="/assets/img/tools/jucmnav.jpg" class="tool-shot" alt="jUCMNav screenshot" loading="lazy"></a>
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/JUCMNAV/jUCMNavPlus" target="_blank" rel="noopener">jUCMNav</a></h5>
+<div class="tool-tagline">Éditeur et analyseur Eclipse pour la Notation visuelle d'exigences.</div>
+<p class="card-text">Un greffon Eclipse pour créer, éditer et analyser des modèles URN — combinant les cartes d'utilisation (scénarios) et le langage d'exigences orienté buts (buts) — avec vérification sémantique et import/export. jUCMNavPlus est une version modernisée de l'outil jUCMNav.</p>
+<div class="tool-tech">Java · Eclipse · EMF/GEF</div>
+<div class="tool-links"><a href="https://github.com/JUCMNAV/jUCMNavPlus" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a> <a href="http://softwareengineering.ca/jucmnav/" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">Site</a></div>
+</div></div>
+</div>
+<h3 class="tool-section">Modélisation et forage de processus</h3>
+<div class="tools-grid">
+<div class="card tool-card">
+<a href="https://github.com/ProcessMining-uOttawa/pm4py-ucm" target="_blank" rel="noopener"><img src="/assets/img/tools/pm4py-ucm.jpg" class="tool-shot" alt="pm4py-ucm screenshot" loading="lazy"></a>
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/ProcessMining-uOttawa/pm4py-ucm" target="_blank" rel="noopener">pm4py-ucm</a></h5>
+<div class="tool-tagline">Forage de processus en cartes d'utilisation (UCM) pour PM4Py.</div>
+<p class="card-text">Une extension qui ajoute le support des cartes d'utilisation (URN / UIT-T Z.151) aux flux de forage de processus de PM4Py : découverte, visualisation et export de diagrammes UCM à partir de journaux d'événements, avec interface Web Streamlit et export jUCMNav/XMI.</p>
+<div class="tool-tech">Python · PM4Py · Streamlit</div>
+<div class="tool-links"><a href="https://github.com/ProcessMining-uOttawa/pm4py-ucm" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+<div class="card tool-card">
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/ProcessMining-uOttawa/logprep4pm" target="_blank" rel="noopener">logprep4pm</a></h5>
+<div class="tool-tagline">Nettoyage et prétraitement de journaux d'événements pour le forage de processus.</div>
+<p class="card-text">Une bibliothèque Python pour scripter le nettoyage, le filtrage et le prétraitement réutilisables de journaux d'événements avant le forage de processus ; un portage Python de la bibliothèque R CPA-PM, intégrée à PM4Py.</p>
+<div class="tool-tech">Python · PM4Py</div>
+<div class="tool-links"><a href="https://github.com/ProcessMining-uOttawa/logprep4pm" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+<div class="card tool-card">
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/alireza-hsi/LLM4QBP" target="_blank" rel="noopener">LLM4QBP</a></h5>
+<div class="tool-tagline">Pipeline LLM extrayant des modèles de processus à partir de guides cliniques.</div>
+<p class="card-text">Un pipeline qui utilise des grands modèles de langage pour générer, mettre en correspondance et évaluer des modèles de processus BPMN à partir de guides cliniques, avec appariement d'activités, comparaison de similarité BPMN et interface Streamlit.</p>
+<div class="tool-tech">Python · LLMs · Streamlit</div>
+<div class="tool-links"><a href="https://github.com/alireza-hsi/LLM4QBP" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+</div>
+<h3 class="tool-section">DASH — Décisions pour le logement abordable et social</h3>
+<div class="tools-grid">
+<div class="card tool-card">
+<a href="https://github.com/UOttawa-Social-Housing-Dash/DASH-Proto" target="_blank" rel="noopener"><img src="/assets/img/tools/dash.jpg" class="tool-shot" alt="DASH screenshot" loading="lazy"></a>
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/UOttawa-Social-Housing-Dash/DASH-Proto" target="_blank" rel="noopener">DASH</a></h5>
+<div class="tool-tagline">Aide à la décision fondée sur les données pour le logement abordable/social.</div>
+<p class="card-text">Un système prototype d'aide à la décision qui analyse et visualise des données sur le logement abordable/social à l'aide d'un entrepôt de données SQL Server et de tableaux de bord interactifs Power BI, pour appuyer des décisions fondées sur les données.</p>
+<div class="tool-tech">Power BI · SQL Server</div>
+<div class="tool-links"><a href="https://github.com/UOttawa-Social-Housing-Dash/DASH-Proto" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+</div>
+<h3 class="tool-section">RIMS — Gestion d'institut de recherche</h3>
+<div class="tools-grid">
+<div class="card tool-card">
+<a href="https://github.com/liferesearchapp/life-research-members-portal" target="_blank" rel="noopener"><img src="/assets/img/tools/rims-schema.jpg" class="tool-shot" alt="RIMS — LIFE Research Members Portal screenshot" loading="lazy"></a>
+<div class="card-body">
+<h5 class="card-title" style="margin-bottom:.2rem"><a href="https://github.com/liferesearchapp/life-research-members-portal" target="_blank" rel="noopener">RIMS — LIFE Research Members Portal</a></h5>
+<div class="tool-tagline">Portail de gestion des membres et des activités d'un institut de recherche.</div>
+<p class="card-text">RIMS (Research Institute Management System) est un portail Web pour l'Institut de recherche LIFE de l'Université d'Ottawa permettant de gérer les profils des membres et les activités de recherche (événements, subventions, partenariats, produits, supervisions), avec gestion des accès et tableau de bord Power BI intégré.</p>
+<div class="tool-tech">Next.js · TypeScript · Prisma · SQL Server</div>
+<div class="tool-links"><a href="https://github.com/liferesearchapp/life-research-members-portal" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">GitHub</a> <a href="https://github.com/liferesearchapp/life-research-members-portal/wiki" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">Wiki</a></div>
+</div></div>
+</div>

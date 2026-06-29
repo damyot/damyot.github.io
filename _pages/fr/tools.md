@@ -7,8 +7,10 @@ nav: true
 nav_order: 4
 ---
 
-- [jUCMNav](http://jucmnav.softwareengineering.ca/jucmnav/) — outil basé sur
-  Eclipse pour la modélisation et l'analyse avec la Notation visuelle
-  d'exigences (URN).
+Outils et logiciels développés avec mes étudiants et collaborateurs, couvrant
+l'ingénierie des exigences, les contrats juridiques intelligents, la
+modélisation et le forage de processus, ainsi que les applications de données de
+recherche. La plupart sont à code ouvert sur GitHub — cliquez sur une capture
+d'écran ou un titre pour accéder au dépôt.
 
-Ajoutez ici vos autres outils.
+{% include tools_list_fr.html %}

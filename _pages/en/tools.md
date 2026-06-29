@@ -7,7 +7,9 @@ nav: true
 nav_order: 4
 ---
 
-- [jUCMNav](http://softwareengineering.ca/jucmnav/) — Eclipse-based tool for
-  modelling and analysis with the User Requirements Notation (URN).
+Tools and software developed with my students and collaborators, spanning
+requirements engineering, smart legal contracts, process modelling and mining,
+and research-data applications. Most are open source on GitHub — click a
+screenshot or title to visit its repository.
 
-Add your other tools here.
+{% include tools_list_en.html %}
