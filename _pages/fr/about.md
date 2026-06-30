@@ -63,8 +63,27 @@ au [IBM/Telfer Centre for Business Analytics and Performance](http://sites.telfe
 
 #### Heures de disponibilité
 
-En personne ou sur MS Teams, les jeudis 9 h 30–10 h 30; sur MS Teams sur
-rendez-vous. Envoyez-moi un courriel pour des questions ou rencontres urgentes.
+En congé sabbatique du 1er juillet 2026 au 30 juin 2027. Veuillez me contacter
+par courriel pour toute réunion urgente ou question.
+
+#### Outils
+
+Un aperçu — voir la [page Outils complète](/fr/tools/) pour les captures d'écran et les détails :
+
+- **Contrats juridiques intelligents Symboleo** :
+  [SymboleoAC Web IDE](https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-Web),
+  [SymboleoAC Eclipse IDE](https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-IDE),
+  [Symboleo2SC + SymboleoPC](https://github.com/Smart-Contract-Modelling-uOttawa/Symboleo2SC-SymboleoPC-Combined),
+  [SymboleoAC2SC Examples](https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC2SC)
+- **Notation visuelle d'exigences** :
+  [jUCMNav](https://github.com/JUCMNAV/jUCMNavPlus)
+- **Modélisation et forage de processus** :
+  [pm4py-ucm](https://github.com/ProcessMining-uOttawa/pm4py-ucm),
+  [logprep4pm](https://github.com/ProcessMining-uOttawa/logprep4pm),
+  [LLM4QBP](https://github.com/alireza-hsi/LLM4QBP)
+- **Applications de données de recherche** :
+  [DASH](https://github.com/UOttawa-Social-Housing-Dash/DASH-Proto),
+  [RIMS](https://github.com/liferesearchapp/life-research-members-portal)
 
 #### Liens rapides
 

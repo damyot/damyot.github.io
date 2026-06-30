@@ -61,8 +61,27 @@ the [Telfer Health Transformation Exchange (THTex)](http://sites.telfer.uottawa.
 
 #### Office hours
 
-In person or on MS Teams, Thursdays 9:30–10:30; on MS Teams by appointment.
-Please email me for urgent meetings or questions.
+On sabbatical leave between July 1st, 2026 and June 30, 2027. Please email me
+for urgent meetings or questions.
+
+#### Tools
+
+A sneak preview — see the [full Tools page](/tools/) for screenshots and details:
+
+- **Symboleo** smart legal contracts:
+  [SymboleoAC Web IDE](https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-Web),
+  [SymboleoAC Eclipse IDE](https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC-IDE),
+  [Symboleo2SC + SymboleoPC](https://github.com/Smart-Contract-Modelling-uOttawa/Symboleo2SC-SymboleoPC-Combined),
+  [SymboleoAC2SC Examples](https://github.com/Smart-Contract-Modelling-uOttawa/SymboleoAC2SC)
+- **User Requirements Notation**:
+  [jUCMNav](https://github.com/JUCMNAV/jUCMNavPlus)
+- **Process modelling and mining**:
+  [pm4py-ucm](https://github.com/ProcessMining-uOttawa/pm4py-ucm),
+  [logprep4pm](https://github.com/ProcessMining-uOttawa/logprep4pm),
+  [LLM4QBP](https://github.com/alireza-hsi/LLM4QBP)
+- **Research-data applications**:
+  [DASH](https://github.com/UOttawa-Social-Housing-Dash/DASH-Proto),
+  [RIMS](https://github.com/liferesearchapp/life-research-members-portal)
 
 #### Quick links
 
