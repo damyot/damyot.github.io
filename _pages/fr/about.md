@@ -6,7 +6,7 @@ subtitle: Professeur, École de science informatique et de génie électrique, U
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: DanielAmyot-Web.png
   image_circular: false
   more_info: >
     <p>Édifice SITE, salle 5-021</p>
@@ -29,9 +29,9 @@ En février 2002, je me suis joint à l'École de science informatique et de gé
 senior à [Mitel Networks](https://www.mitel.com/). De 2002 à 2013, j'ai été
 Rapporteur associé sur les langages formels et les logiciels de télécommunication
 à l'Union internationale des télécommunications (UIT-T), où j'étais responsable du
-développement de la norme [User Requirements Notation](http://www.usecasemaps.org/urn)
+développement de la norme [User Requirements Notation](https://sdl-forum.org/languages/urn.php)
 (URN). Je dirige aussi le développement de l'outil
-[jUCMNav](http://jucmnav.softwareengineering.ca/jucmnav/) pour la modélisation et
+[jUCMNav](https://github.com/JUCMNAV/jUCMNavPlus) pour la modélisation et
 l'analyse basées sur URN.
 
 Mes intérêts de recherche sont variés :

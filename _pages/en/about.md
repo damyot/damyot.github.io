@@ -6,7 +6,7 @@ subtitle: Professor, School of Electrical Engineering and Computer Science, Univ
 
 profile:
   align: right
-  image: prof_pic.jpg          # place a photo at assets/img/prof_pic.jpg
+  image: DanielAmyot-Web.png
   image_circular: false
   more_info: >
     <p>SITE Hall, Room 5-021</p>
@@ -29,8 +29,8 @@ University of Ottawa in February 2002, after a few years as Senior Researcher at
 [Mitel Networks](https://www.mitel.com/). From 2002 to 2013, I was Associate
 Rapporteur on Formal Languages and Telecommunication Software at the
 International Telecommunication Union (ITU-T), where I led the development of the
-[User Requirements Notation](http://www.usecasemaps.org/urn) (URN) standard. I
-also lead the development of the [jUCMNav tool](http://softwareengineering.ca/jucmnav/)
+[User Requirements Notation](https://sdl-forum.org/languages/urn.php) (URN) standard. I
+also lead the development of the [jUCMNav tool](https://github.com/JUCMNAV/jUCMNavPlus)
 for URN modelling and analysis.
 
 My research interests span many domains:
