@@ -10,6 +10,8 @@ nav_order: 7
 <!-- Rendered from _bibliography/talks.bib (the "Others" section of the CV),
      newest first. Maintain that one file to update this page. -->
 
+{% include bib_search.liquid %}
+
 <div class="publications">
 {% bibliography --file talks %}
 </div>
